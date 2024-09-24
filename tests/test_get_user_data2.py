@@ -1,6 +1,7 @@
 import httpx
 from jsonschema import validate
 from core.contracts import USER_DATA_SCHEMA2
+import allure
 
 BASE_URL = "https://reqres.in"
 LIST_RESOURCE = "/api/unknown"
